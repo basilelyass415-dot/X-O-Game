@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: system-ui;
+}
+body{
+  background: #2bded0 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  height: 350px;
+  width: 350px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+  box-shadow: 0 25px 45px #000 ;
+  border-radius: 20px;
+}
+.container div{
+  background: #ffffffff;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  cursor: pointer;
+  color: #000;
+}
+button{
+  position: absolute;
+  bottom:  25px;
+  font-size: 50px;
+  width: 250px;
+  border: none;
+  background: white;
+  color: #000;
+  padding: 15px 6px;
+  border-radius: 15px;
+  box-shadow: 0 25px 45px #000;
+  text-transform: uppercase;
+}
+/* الزاوية العليا اليسرى */
+.di1 {
+  border-radius: 20px 0 0 0;
+}
+
+/* الزاوية العليا اليمنى */
+.di3 {
+  border-radius: 0 20px 0 0;
+}
+
+/* الزاوية السفلى اليسرى */
+.di7 {
+  border-radius: 0 0 0 20px;
+}
+
+/* الزاوية السفلى اليمنى */
+.di9 {
+  border-radius: 0 0 20px 0;
+}
