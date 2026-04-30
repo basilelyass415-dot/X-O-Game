@@ -21,7 +21,7 @@ body{
 }
 .container div{
   background: #ffffffff;
-  border: 2px solid black;
+ /*  border: 2px solid black; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,19 +45,39 @@ button{
 /* الزاوية العليا اليسرى */
 .di1 {
   border-radius: 20px 0 0 0;
+  border-bottom: 2px solid #000;
+  border-right: 2px solid #000;
 }
 
 /* الزاوية العليا اليمنى */
 .di3 {
   border-radius: 0 20px 0 0;
+  border-bottom: 2px solid #000;
+  border-left: 2px solid #000;
 }
 
 /* الزاوية السفلى اليسرى */
 .di7 {
   border-radius: 0 0 0 20px;
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
 }
 
 /* الزاوية السفلى اليمنى */
 .di9 {
   border-radius: 0 0 20px 0;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+}
+.di2{
+  border-bottom: 2px solid #000;
+}
+.di4{
+  border-right: 2px solid #000;
+}
+.di6{
+  border-left: 2px solid #000;
+}
+.di8{
+  border-top: 2px solid #000;
 }
